@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+<TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|top"
+        android:textSize="24sp"
+        android:textColor="#000000"
+
+        android:text="@string/app_title" />
+    <ImageView
+        android:id="@+id/image_view_women"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/headwomen"
+        android:layout_gravity="center_horizontal" />
+
+<!--       <ImageView
+           android:id="@+id/image_view"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/linearlayout_triangle"
+           android:layout_gravity="center_horizontal" />&ndash;&gt;-->
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f8f8ff" >
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center_horizontal"
+            android:textSize="18sp"
+            android:text="@string/select_and_keep" />
+    </LinearLayout>
+    <LinearLayout
+
+    android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#f8f8ff" >
+
+        <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="3"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        />
+    </LinearLayout>
+    </LinearLayout>

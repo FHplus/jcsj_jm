@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">session2</string>
+    <string name="app_title">坚持手记</string>
+    <string name="select_and_keep">选择习惯，默默坚持吧！</string>
+</resources>
